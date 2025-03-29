@@ -33,7 +33,7 @@ Deployment: Render, Railway, or Heroku
 
 📂 Project Structure
 
-📁 gen-ai-query-simulation \
+📁 Growth Gear Assignment\
 ##
 │── 📁 src
 ##
@@ -82,4 +82,4 @@ npm start
 🚀 Deployment
 
 Deploy the backend using Railway
-[Deployed Link ](growthgear-assignment-production.up.railway.app)
+[growthgear-assignment-production.up.railway.app ](growthgear-assignment-production.up.railway.app)
