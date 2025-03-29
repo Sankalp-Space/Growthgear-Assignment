@@ -24,7 +24,12 @@ Deployment: Render, Railway, or Heroku
 
 📌 Features
 
-✅ /query - Accepts natural language queries and returns pseudo-SQL.✅ /explain - Returns a breakdown of how the query is processed.✅ /validate - Checks if the query is feasible before execution.✅ Basic AI Simulation - Converts text-based queries into structured SQL-like statements.✅ Error Handling - Returns proper responses for invalid queries.✅ API Key Security - Ensures only authorized users can access the API.
+✅ /query - Accepts natural language queries and returns pseudo-SQL.
+✅ /explain - Returns a breakdown of how the query is processed
+.✅ /validate - Checks if the query is feasible before execution.
+✅ Basic AI Simulation - Converts text-based queries into structured SQL-like statements.
+✅ Error Handling - Returns proper responses for invalid queries.
+✅ API Key Security - Ensures only authorized users can access the API.
 
 📂 Project Structure
 
@@ -42,8 +47,8 @@ Deployment: Render, Railway, or Heroku
 
 Clone the repository
 
-git clone https://github.com/your-username/gen-ai-query-simulation.git
-cd gen-ai-query-simulation
+git clone https://github.com/Sankalp-Space/Growthgear-Assignment.git
+cd Growthgear-Assignment
 
 Install dependencies
 
@@ -52,68 +57,19 @@ npm install
 Set up environment variables
 Create a .env file and add:
 
-API_KEY=your_secure_api_key
+API_KEY=key123
 
 Run the server
 
 npm start
 
-📡 API Endpoints
 
-🔹 1. Convert Natural Language Query to Pseudo-SQL
 
-Endpoint: POST /queryHeaders: { "x-api-key": "your_secure_api_key" }
-
-{
-  "question": "What are the total sales?"
-}
-
-Response:
-
-{
-  "sql": "SELECT SUM(total) FROM sales"
-}
-
-🔹 2. Explain Query Processing
-
-Endpoint: POST /explain
-
-{
-  "question": "List all customers."
-}
-
-Response:
-
-{
-  "explanation": "The query retrieves all customer records from the database."
-}
-
-🔹 3. Validate Query Feasibility
-
-Endpoint: POST /validate
-
-{
-  "question": "Delete all users."
-}
-
-Response:
-
-{
-  "valid": false,
-  "message": "Destructive queries are not allowed."
-}
 
 🧪 Testing with Postman
 
-Import the provided Postman Collection to test endpoints easily.
-
-Or, use cURL:
-
-curl -X POST http://localhost:5000/query \
-     -H "x-api-key: your_secure_api_key" \
-     -H "Content-Type: application/json" \
-     -d '{ "question": "Show me total sales" }'
+[Postman Collection Link](https://elements.getpostman.com/redirect?entityId=36163184-694e9726-cd1f-47c9-bc0e-9e6488ef7ce4&entityType=collection)
 
 🚀 Deployment
 
-Deploy the backend using Render, Railway, or Heroku:
+Deploy the backend using Render
