@@ -24,30 +24,39 @@ Deployment: Render, Railway, or Heroku
 
 📌 Features
 
-✅ /query - Accepts natural language queries and returns pseudo-SQL.
-✅ /explain - Returns a breakdown of how the query is processed
-.✅ /validate - Checks if the query is feasible before execution.
-✅ Basic AI Simulation - Converts text-based queries into structured SQL-like statements.
-✅ Error Handling - Returns proper responses for invalid queries.
-✅ API Key Security - Ensures only authorized users can access the API.
+✅ /query - Accepts natural language queries and returns pseudo-SQL. \
+✅ /explain - Returns a breakdown of how the query is processed. \
+✅ /validate - Checks if the query is feasible before execution. \
+✅ Basic AI Simulation - Converts text-based queries into structured SQL-like statements. \
+✅ Error Handling - Returns proper responses for invalid queries. \
+✅ API Key Security - Ensures only authorized users can access the API. \
 
 📂 Project Structure
 
-📁 gen-ai-query-simulation
+📁 gen-ai-query-simulation \
+##
 │── 📁 src
+##
 │   │── 📄 server.js            # Main Express server
+##
 │   │── 📄 routes.js            # API route definitions
+##
 │   │── 📄 queryService.js      # Logic for AI-like query processing
+##
 │   │── 📄 authMiddleware.js    # API key authentication
+##
 │── 📄 .env                     # Environment variables
+##
 │── 📄 package.json             # Project dependencies
+##
 │── 📄 README.md                # Project documentation
+##
 
 🚀 Installation & Setup
 
 Clone the repository
 
-git clone https://github.com/Sankalp-Space/Growthgear-Assignment.git
+git clone https://github.com/Sankalp-Space/Growthgear-Assignment.git \
 cd Growthgear-Assignment
 
 Install dependencies
