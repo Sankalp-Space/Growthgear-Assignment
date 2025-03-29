@@ -82,4 +82,4 @@ npm start
 🚀 Deployment
 
 Deploy the backend using Railway
-[growthgear-assignment-production.up.railway.app ](growthgear-assignment-production.up.railway.app)
+[growthgear-assignment-production.up.railway.app ](https://growthgear-assignment-production.up.railway.app)
