@@ -81,4 +81,5 @@ npm start
 
 🚀 Deployment
 
-Deploy the backend using Render
+Deploy the backend using Railway
+[Deployed Link ](growthgear-assignment-production.up.railway.app)
